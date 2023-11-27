@@ -1,11 +1,9 @@
 from datetime import timedelta
 
-from flask_cors import cross_origin
 from flask_jwt_extended import create_access_token, get_jwt_identity, verify_jwt_in_request
 
 from App.database import MongoDBHandler
-from flask import Flask, render_template, request, jsonify, session, Blueprint
-from flask_login import UserMixin, login_user, login_manager
+from flask import  request, jsonify, Blueprint
 from pymongo import MongoClient
 import hashlib
 

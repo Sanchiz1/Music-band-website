@@ -1,14 +1,10 @@
 import json
 
 from bson import json_util
-from bson.json_util import dumps, loads
-from flask_jwt_extended import create_access_token, get_jwt_identity, verify_jwt_in_request, jwt_required
+from flask_jwt_extended import  jwt_required
 from jsonschema import validate, ValidationError
 from App.database import MongoDBHandler
-from flask import Flask, render_template, request, jsonify, session, Blueprint
-from flask_login import UserMixin, login_user, login_manager
-from pymongo import MongoClient
-import hashlib
+from flask import  request, jsonify, Blueprint
 
 albums = Blueprint('albums', __name__, url_prefix = '/', template_folder='templates')
 
