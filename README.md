@@ -21,7 +21,9 @@ Website with music band albums using Flask, React and MongoDB
 
 - **Database:**
   - [MongoDb](https://www.mongodb.com/)
-  
+
+## Albums page
+![image](https://github.com/Sanchiz1/Music-band-website/assets/117033207/9f21565e-69a7-4cca-a772-a327c7816af0)  
 ## Getting Started
 
 1. **Clone the repository:**
