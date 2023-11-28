@@ -28,8 +28,7 @@ Website with music band albums using Flask, React and MongoDB
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/Sanchiz1/Music-band-website
 
 2. **Frontend:**
    ```bash
@@ -37,8 +36,10 @@ Website with music band albums using Flask, React and MongoDB
    npm start
    
 3. **Backend:**
+   <br />Create account in MongoDb and create own cluster, add your connection
+   
    ```bash
    pip install -r requirements.txt
    python app.py
 
-4. **Visit http://localhost:3000 to see the React app**
+5. **Visit http://localhost:3000 to see the React app**
